@@ -14,3 +14,4 @@ use App\Http\Controllers\HomeController;
 |
 */
 Route::get('/', [HomeController::class, 'index']);
+URL::forceScheme('https');
