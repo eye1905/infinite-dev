@@ -1,0 +1,5 @@
+@include('base.header')
+@include('base.topbar')
+@include($view)
+@include('base.footer')
+@include('base.javascript')
